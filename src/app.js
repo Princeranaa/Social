@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 /* mounted routes */
-app.use("/auth/auth", authRoutes)
+app.use("/api/auth", authRoutes)
 app.use("/api/post", postRoutes)
 
 
